@@ -2,7 +2,7 @@
 简易瓦片地图下载器  多线程下载选定的缩放范围
 
 ## 瓦片地图来源地址
-修改Python源码内的URL，默认包含以下瓦片地址：谷歌、mapquest、高德。
+修改Python源码内的URL，当前包含以下瓦片地址：谷歌、mapquest、高德。
 ```Python
 URL = {
     "google":"http://mt2.google.cn/vt/lyrs=m@167000000&hl=zh-CN&gl=cn&x={x}&y={y}&z={z}&s=Galil",
@@ -11,9 +11,11 @@ URL = {
     "default":"http://mt2.google.cn/vt/lyrs=m@167000000&hl=zh-CN&gl=cn&x={x}&y={y}&z={z}&s=Galil",
 }
 ```
+<br>
 
 ## 配置程序config
 其中“地图地址”须与Python源码内的URL对应，此处选择谷歌地图
+<br>
 “根路径”+“项目名”为地图下载至本地的保存路径
 ```conf
 [config]
