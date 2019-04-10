@@ -1,8 +1,8 @@
 # SimpleTileDownloader
 简易瓦片地图下载器  多线程下载选定的缩放范围
 
-## 瓦片地图来源地址
-修改Python源码内的URL，当前包含以下瓦片地址：谷歌、mapquest、高德。
+## 瓦片地图来源
+Python代码内的URL，当前包含以下瓦片地址：谷歌、mapquest、高德
 ```Python
 URL = {
     "google":"http://mt2.google.cn/vt/lyrs=m@167000000&hl=zh-CN&gl=cn&x={x}&y={y}&z={z}&s=Galil",
